@@ -20,6 +20,9 @@ This can also be a dedicated section of your README.md files.
 - [Tauri](https://github.com/tauri-apps/tauri/blob/dev/ARCHITECTURE.md) - Well made source code map, discusses architecture considerations, calls out important dependencies.
 - [NeoVim](https://github.com/neovim/neovim/blob/master/src/nvim/README.md) - Describes the main processes/lifecycle
 - [GitLab](https://gitlab.com/gitlab-org/charts/gitlab/-/tree/master/doc/architecture) - Calls out design decisions
+- [ESBuild](https://github.com/evanw/esbuild/blob/main/docs/architecture.md) - Great use of graphics for visualisations and project structure. Includes a list of important principles for the project.
+- [Redis](https://github.com/redis/redis/blob/unstable/README.md) - Good source code map. Overviews of key files. Good use of documentation comments in-code rather than inline comments. 
 
 ## Resources
 - [Matklad's take](https://matklad.github.io/2021/02/06/ARCHITECTURE.md.html) - ARCHITECTURE.md files are useful for >10k line project. They should be start with a bird's eye view, provide a high-level code map, and show high-level relationships. Call out searchable starting points, such as a project's entry point.
+- [John Jago's discussion](https://johnjago.com/great-docs/) - Explores esbuild & Redis' documentation. Users and contributors alike benefit from separating Architecture from a README. Using design principles, graphics, key files, and changelogs are important parts of good documentation.
